@@ -13,6 +13,7 @@ namespace my_books
     {
         public static void Main(string[] args)
         {
+            // Call ไปยัง Method CreateHostBuilder
             CreateHostBuilder(args).Build().Run();
         }
 
